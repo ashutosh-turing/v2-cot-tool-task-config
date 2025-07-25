@@ -1,0 +1,58 @@
+{
+  "project_code": "APAC_Code_Data_Pack_Generation",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1zoGiNN_8pZLtIVnQ5EnlRFAig6gi3jYzylh2x7lNlgE",
+  "sync_interval_minutes": 15,
+  "primary_key_column": "question_id",
+  "scraping_needed": false,
+  "link_column": "sft_task_link",
+  "column_mapping": {
+    "developer": "Trainer",
+    "reviewer": "Reviewer",
+    "raw_prompt": "Prompts",
+    "question_id": "Task Id",
+    "sft_task_link": "SFT Task Link",
+    "sft_review": "SFT Review",
+    "code_eval_rlhf_task_link": "Code Eval RLHF Task Link",
+    "eval_review": "Eval Review",
+    "model_a": "Model A",
+    "model_b": "Model b",
+    "model_c": "Model C",
+    "model_d": "Model D"
+},
+  "field_types": {
+    "eval_review": "badge",
+    "code_eval_rlhf_task_link": "links",
+    "sft_task_link": "links",
+    "model_a": "badge",
+    "model_b": "badge",
+    "model_c": "badge",
+    "model_d": "badge"
+  },
+  "display_config": {
+    "field_order": [
+      "question_id",
+      "sft_task_link",
+      "sft_review",
+      "code_eval_rlhf_task_link",
+      "eval_review",
+      "model_a",
+      "model_b",
+      "model_c",
+      "model_d"
+    ],
+    "field_labels": {
+      "question_id": "Id",
+      "sft_task_link": "SFT Task Link",
+      "sft_review": "SFT Review",
+      "code_eval_rlhf_task_link": "Code Eval RLHF Task Link",
+      "eval_review": "Eval Review",
+      "model_a": "Model A",
+      "model_b": "Model b",
+      "model_c": "Model C",
+      "model_d": "Model D"
+    }
+  },
+  "sync_mode": "prompt_in_sheet",
+  "sheet_tab": "Prompts Set",
+  "is_active": true
+}
