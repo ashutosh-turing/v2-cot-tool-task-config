@@ -1,0 +1,35 @@
+{
+  "project_code": "Code-Data-Repack-SFT",
+  "sheet_url": "https://docs.google.com/spreadsheets/d/1H8DEeeH7GGoOknkM5t9eOBuEVbNZBvkA3EinokkuAfM",
+  "sync_interval_minutes": 60,
+  "primary_key_column": "question_id",
+  "scraping_needed": false,
+  "link_column": "problem_link",
+  "column_mapping": {
+    "developer": "Developer",
+    "reviewer": "Reviewer",
+    "title": "title",
+    "raw_prompt": "raw_prompt",
+    "reference_links": "links",
+    "question_id": "question_id",
+    "difficulty": "Level Of Difficulty",
+    "rating": "Rating"
+  },
+  "field_types": {
+    "rating": "badge",
+    "difficulty": "star"
+  },
+  "display_config": {
+    "field_order": ["question_id", "title", "rating", "difficulty"],
+    "field_labels": {
+      "question_id": "Id",
+      "title": "Title",
+      "rating": "Rating",
+      "difficulty": "Level Of Difficulty",
+      "Link": "Problem Link"
+    }
+  },
+  "sync_mode": "prompt_in_sheet",
+  "sheet_tab": "prompts",
+  "is_active": true
+}
