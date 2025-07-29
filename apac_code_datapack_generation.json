@@ -6,6 +6,7 @@
   "scraping_needed": false,
   "link_column": "sft_task_link",
   "column_mapping": {
+    "date": "Date",
     "developer": "Trainer",
     "reviewer": "Reviewer",
     "raw_prompt": "Prompts",
@@ -14,31 +15,27 @@
     "sft_review": "SFT Review",
     "code_eval_rlhf_task_link": "Code Eval RLHF Task Link",
     "eval_review": "Eval Review",
-    "model_a": "Model A",
-    "model_b": "Model b",
-    "model_c": "Model C",
-    "model_d": "Model D"
+    "model_a": "Model A: HUNYUAN-T1",
+    "model_b": "Model B: HUNYUAN-TURBOS"
 },
   "field_types": {
     "eval_review": "badge",
+    "sft_review": "badge",
     "code_eval_rlhf_task_link": "links",
     "sft_task_link": "links",
-    "model_a": "badge",
-    "model_b": "badge",
-    "model_c": "badge",
-    "model_d": "badge"
+    "model_a_old": "badge",
+    "model_b_old": "badge"
   },
   "display_config": {
     "field_order": [
+      "date", 
       "question_id",
       "sft_task_link",
       "sft_review",
       "code_eval_rlhf_task_link",
       "eval_review",
       "model_a",
-      "model_b",
-      "model_c",
-      "model_d"
+      "model_b"
     ],
     "field_labels": {
       "question_id": "Id",
@@ -48,8 +45,8 @@
       "eval_review": "Eval Review",
       "model_a": "Model A",
       "model_b": "Model b",
-      "model_c": "Model C",
-      "model_d": "Model D"
+      "model_a_old": "Model A Old",
+      "model_b_old": "Model B Old" 
     }
   },
   "sync_mode": "prompt_in_sheet",
